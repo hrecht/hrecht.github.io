@@ -45,9 +45,7 @@ hr {
     margin-bottom: 40px;
 }
 
-/*.navbar-inverse,
-.nav,
-.navbar-nav {
-    background-color: #3D2042;
+a.social {
+    color: inherit; 
+    text-decoration: none;
 }
-*/
