@@ -25,6 +25,10 @@ h6 {
     font-weight: 700;
 }
 
+h4 {
+    margin-top: 25px;
+}
+
 p {
     margin: 0 0 15px;
     font-size: 14px;
