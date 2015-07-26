@@ -15,213 +15,168 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/1-col-portfolio.css" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link target="_blank" href="font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link target="_blank" href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link target="_blank" href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
+    <link href="font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!--a class="navbar-brand" href="#">Start Bootstrap</a-->
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#publications">Publications</a>
-                    </li>
-                    <li>
-                        <a href="#resume">Resume</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Page Content -->
     <div class="container">
 
-        <!-- Page Heading -->
-        <div class="row" id="about">
-            <div class="col-lg-12">
-                <h1 class="page-header">Hannah Recht
+        <div class="row">
+            <!--div class="col-lg-12"-->
+                <div class="col-sm-2">
+                    <div class="sidebar-nav">
+                        <div class="navbar navbar-default" role="navigation">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                                <ul class="nav navbar-nav">
+                                    <li>
+                                        <a href="#about">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#portfolio">Portfolio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#publications">Publications</a>
+                                    </li>
+                                    <li>
+                                        <a href="#resume">Resume</a>
+                                    </li>
+                                    <li>
+                                        <a class="social" href="https://twitter.com/hannah_recht"><i class="fa fa-twitter fa-2x"></i></a>
+                                        <a class="social" href="https://github.com/hrecht"><i class="fa fa-github fa-2x"></i></a>
+                                        <a class="social" href="https://www.linkedin.com/in/hannahrecht"><i class="fa fa-linkedin fa-2x"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--/.nav-collapse -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-7 col-sm-offset-1">
+
+                    <div class="row" id="about">
+                        <h1>Hannah Recht
                     <small>Data Analyst and Visualizer</small>
                 </h1>
-                <p>I am a data nerd passionate about communicating complex, important information through visuals and statistics. I clean, analyze, simulate, and visualize health policy data at the <a href="http://urban.org/">Urban Institute.</a> Most of my work involves the Health Insurance Policy Simulation Model, a large microsimulation model used to predict the effects of policy changes. My reasearch focuses on enrollment in the Affordable Care Act's marketplaces, the potential fallout of King v. Burwell, and racial and ethnic disparities in uninsurance. I &#9829; open data.</p>
 
-                <p>I graduated from the University of Rochester with a bachelor's degree in mathematics and statistics, a minor in epidemiology, and a love of six month winters. When not analyzing public policy I analyze pop culture & TV data, play trumpet, and watch any/all cooking competition shows.</p>
-                <p class="list">Main tools:</p>
-                <ul>
-                    <li>Visualization: d3, R, ArcGIS, Mapbox/TileMill, Photoshop</li>
-                    <li>Data Analysis: Stata, R, SAS, Python</li>
-                </ul>
-            </div>
-        </div>
-        <!-- /.row -->
+                        <p>I am a data nerd passionate about communicating complex, important information through visuals and statistics. I research, analyze, and visualize public policy data at the <a href="http://urban.org/">Urban Institute.</a> Favorite tools include D3.js, R, Leaflet, and Python. I &#9829; open data.</p>
 
-        <hr>
-        <div class="row" id="portfolio">
-            <div class="col-lg-12">
-                <h2>Data Visualization Portfolio</h2>
-            </div>
-        </div>
+                        <p>I graduated from the University of Rochester with a bachelor's degree in mathematics and statistics, a minor in epidemiology, and a love of six month winters. When not analyzing public policy I analyze pop culture & TV data, play trumpet, and watch any/all cooking competition shows.</p>
+                    </div>
 
-        <!-- Project One -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="http://datatools.urban.org/features/marketplace-enrollment/">
-                    <img class="img-responsive" src="img/marketplaceprojections.png" alt="Bar chart of 2015 enrollment compared to projection">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h4>Marketplaces makes significant progress in 2015</h4>
-                <p>Explore the progress of the Affordable Care Act's marketplaces by state. We compare 2014 and 2015 enrollment to projections from the Urban Institute's Health Insurance Policy Simulation model. Featured on the New York Times Upshot's <a href="http://www.nytimes.com/2015/03/28/upshot/stuff-we-liked.html?abt=0002&abg=0">Best of the Web list.</a>
-                </p>
-            </div>
-        </div>
-        <!-- /.row -->
+                    <hr>
+                    <!--Portfolio-->
+                    <div class="row" id="portfolio">
+                        <h2>Portfolio</h2>
 
-        <hr>
+                        <!-- Project -->
+                        <h3 class="project">Marketplaces makes significant progress in 2015</h3>
+                        <a href="http://datatools.urban.org/features/marketplace-enrollment/">
+                            <img class="img-responsive" src="img/marketplaceprojections.png" alt="Bar chart of 2015 enrollment compared to projection">
+                        </a>
+                        <p>Explore the progress of the Affordable Care Act's marketplaces by state. We compare 2014 and 2015 enrollment to projections from the Urban Institute's Health Insurance Policy Simulation model. Featured on the New York Times Upshot's <a href="http://www.nytimes.com/2015/03/28/upshot/stuff-we-liked.html?abt=0002&abg=0">Best of the Web list.</a>
+                        </p>
+                        <!-- /.row -->
 
-        <!-- Project Three -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="http://hrecht.github.io/orphanblack/">
-                    <img class="img-responsive" src="img/orphanblack.png" alt="Orphan Black visualization">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h4>Orphan Black Analysis</h4>
-                <p>Exploring the many characters played by actress Tatiana Maslany on BBC America's Orphan Black. Featured on the official Orphan Black <a href="http://orphanblack.tumblr.com/post/116147369536/tvviz-in-honor-of-orphan-blacks-return-next">Tumblr.</a>
-                </p>
-            </div>
-        </div>
+                        <hr>
 
-        <!-- /.row -->
-        <hr>
+                        <!-- Project -->
+                        <h3 class="project">Orphan Black - weekly analysis</h3>
+                        <a href="http://hrecht.github.io/orphanblack-update/">
+                            <img class="img-responsive" src="img/obs3.png" alt="Orphan Black visualization">
+                        </a>
+                        <p>Exploring the many characters played by actress Tatiana Maslany on BBC America's Orphan Black, updated weekly during season three. Featured on the official Orphan Black <a href="http://orphanblack.tumblr.com/post/124343070875/tvviz-there-are-1244-minutes-of-orphan-black">Tumblr.</a>
+                        </p>
 
-        <!-- Project Two -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="http://datatools.urban.org/Features/ACA-race/index_full.html">
-                    <img class="img-responsive" src="img/uninsuredmap.png" alt="Map of uninsured by race, NYC">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h4>Mapping the uninsured by race/ethnicity</h4>
-                <p>View the geographic distribution of uninsurance by race/ethnicity under three scenarios: without the ACA, with the ACA, and with the ACA if all states expanded Medicaid. The <a href="http://urban.org/research/publication/racialethnic-differences-uninsurance-rates-under-aca">full report</a> additionally analyzes uninsurance for detailed Asian/Pacific Islander origin groups, Hispanic origin groups, and American Indian/Alaska Native tribes.
-                </p>
-            </div>
-        </div>
+                        <!-- /.row -->
+                        <hr>
 
+                        <!-- Project -->
+                        <h3 class="project">Orphan Black's first two seasons</h3>
+                        <a href="http://hrecht.github.io/orphanblack/">
+                            <img class="img-responsive" src="img/obs2.png" alt="Orphan Black visualization">
+                        </a>
+                        <p>Visualizing the screen time of actress Tatiana Maslany in the first 20 episodes of Orphan Black. Featured on the official Orphan Black <a href="http://orphanblack.tumblr.com/post/116147369536/tvviz-in-honor-of-orphan-blacks-return-next">Tumblr.</a>
+                        </p>
 
-        <!-- /.row -->
+                        <!-- /.row -->
+                        <hr>
 
-        <hr>
+                        <!-- Project -->
+                        <h3 class="project">Mapping the uninsured by race/ethnicity</h3>
+                        <a href="http://datatools.urban.org/Features/ACA-race/index_full.html">
+                            <img class="img-responsive" src="img/uninsuredmap.png" alt="Map of uninsured by race, NYC">
+                        </a>
+                        <p>View the geographic distribution of uninsurance by race/ethnicity under three scenarios: without the ACA, with the ACA, and with the ACA if all states expanded Medicaid. The <a href="http://urban.org/research/publication/racialethnic-differences-uninsurance-rates-under-aca">full report</a> additionally analyzes uninsurance for detailed Asian/Pacific Islander origin groups, Hispanic origin groups, and American Indian/Alaska Native tribes.
+                        </p>
 
-        <div class="row" id="publications">
-            <div class="col-lg-12">
-                <h2>Publications</h2>
-                <p>Matthew Buettgens, John Holahan, Hannah Recht. 2015. <a href="http://kff.org/medicaid/issue-brief/medicaid-expansion-health-coverage-and-spending-an-update-for-the-21-states-that-have-not-expanded-eligibility/"><i>Medicaid Expansion, Health Coverage, and Spending: An Update for the 21 States That Have Not Expanded Eligibility</i></a>. Washington, DC: Urban Institute/Kaiser Family Foundation.</p>
-                <p>Matthew Buettgens, John Holahan, Linda Blumberg, Hannah Recht. 2015. <a href="http://www.urban.org/research/publication/health-care-spending-those-becoming-uninsured-if-supreme-court-finds-plaintiff"><i>Health Care Spending by Those Becoming Uninsured if the Supreme Court Finds for the Plaintiff in King v. Burwell Would Fall by at Least 35 Percent</i></a>. Washington, DC: Urban Institute/Robert Wood Johnson Foundation.</p>
-                <p>Lisa Clemans-Cope, Hannah Recht, Matthew Buettgens. 2014. <a href="http://www.urban.org/urban-wire/racialethnic-differences-uninsurance-rates-under-aca-where-you-live-matters">"Racial/ethnic differences in uninsurance rates under the ACA: Where you live matters"</a>. Urban Institute blog post.</p>
-                <p>Lisa Clemans-Cope, Matthew Buettgens, Hannah Recht. 2014. <a href="http://www.urban.org/research/publication/racialethnic-differences-uninsurance-rates-under-aca"><i>Racial/Ethnic Differences in Uninsurance Rates under the ACA</i></a>. Washington, DC: Urban Institute.</p>
-                <p>Wakely Consulting Group and the Urban Institute. 2014. <a href="http://www.ocpp.org/media/uploads/pdf/2014/11/Oregon_BHP_Report20141029.pdf"><i>Oregon Basic Health Program Study</i></a>. Report to the Oregon Health Authority. Washington, DC: Wakely Consulting Group and Urban Institute.</p>
-                <p>Matthew Buettgens, Genevieve Kenney, Hannah Recht. 2014. <a href="http://www.urban.org/research/publication/eligibility-assistance-and-projected-changes-coverage-under-aca-variation-across-states"><i>Eligibility for Assistance and Projected Changes in Coverage under the ACA: Variation Across States - May 2014 Update</i></a>. Washington, DC: Urban Institute/Robert Wood Johnson Foundation.</p>
-                <p>Linda Blumberg, Genevieve Kenney, Matthew Buettgens, John Holahan, Nathaniel Anderson, Hannah Recht, Stephen Zuckerman. 2014. <a href="http://www.urban.org/research/publication/measuring-marketplace-enrollment-relative-enrollment-projections-update"><i>Measuring Marketplace Enrollment Relative to Enrollment Projections: Update</i></a>. Washington, DC: Urban Institute/Robert Wood Johnson Foundation.</p>
-                <p>Linda Blumberg, Genevieve Kenney, Matthew Buettgens, John Holahan, Nathaniel Anderson, Hannah Recht, Stephen Zuckerman. 2014. <a href="http://www.urban.org/research/publication/measuring-marketplace-enrollment-relative-enrollment-projections"><i>Measuring Marketplace Enrollment Relative to Enrollment Projections</i></a>. Washington, DC: Urban Institute/Robert Wood Johnson Foundation.</p>
-                <p>Matthew Buettgens, Genevieve Kenney, Hannah Recht, Victoria Lynch. 2013. <a href="http://www.urban.org/research/publication/eligibility-assistance-and-projected-changes-coverage-under-aca-variation-across-states-0"><i>Eligibility for Assistance and Projected Changes in Coverage under the ACA: Variation Across States</i></a>. Washington, DC: Urban Institute/Robert Wood Johnson Foundation.</p>
-            </div>
-        </div>
+                    </div>
 
-        <!-- /.row -->
+                    <hr>
+                    <!--Publications-->
+                    <div class="row" id="publications">
+                        <h2>Publications</h2>
+                        <p>Matthew Buettgens, John Holahan, Hannah Recht. 2015. <a href="http://kff.org/medicaid/issue-brief/medicaid-expansion-health-coverage-and-spending-an-update-for-the-21-states-that-have-not-expanded-eligibility/"><i>Medicaid Expansion, Health Coverage, and Spending: An Update for the 21 States That Have Not Expanded Eligibility</i></a>. Washington, DC: Urban Institute/Kaiser Family Foundation.</p>
+                        <p>Matthew Buettgens, John Holahan, Linda Blumberg, Hannah Recht. 2015. <a href="http://www.urban.org/research/publication/health-care-spending-those-becoming-uninsured-if-supreme-court-finds-plaintiff-king-v-burwell-would-fall-least-35-percent"><i>Health Care Spending by Those Becoming Uninsured if the Supreme Court Finds for the Plaintiff in King v. Burwell Would Fall by at Least 35 Percent</i></a>. Washington, DC: Urban Institute/Robert Wood Johnson Foundation.</p>
+                        <p>Lisa Clemans-Cope, Matthew Buettgens, Hannah Recht. 2014. <a href="http://www.urban.org/research/publication/racialethnic-differences-uninsurance-rates-under-aca"><i>Racial/Ethnic Differences in Uninsurance Rates under the ACA</i></a>. Washington, DC: Urban Institute.</p>
+                        <p>Wakely Consulting Group and the Urban Institute. 2014. <a href="http://www.ocpp.org/media/uploads/pdf/2014/11/Oregon_BHP_Report20141029.pdf"><i>Oregon Basic Health Program Study</i></a>. Report to the Oregon Health Authority. Washington, DC: Wakely Consulting Group and Urban Institute.</p>
+                        <p>Matthew Buettgens, Genevieve Kenney, Hannah Recht. 2014. <a href="http://www.urban.org/research/publication/eligibility-assistance-and-projected-changes-coverage-under-aca-variation-across-states"><i>Eligibility for Assistance and Projected Changes in Coverage under the ACA: Variation Across States - May 2014 Update</i></a>. Washington, DC: Urban Institute/Robert Wood Johnson Foundation.</p>
+                        <p>Linda Blumberg, Genevieve Kenney, Matthew Buettgens, John Holahan, Nathaniel Anderson, Hannah Recht, Stephen Zuckerman. 2014. <a href="http://www.urban.org/research/publication/measuring-marketplace-enrollment-relative-enrollment-projections-update"><i>Measuring Marketplace Enrollment Relative to Enrollment Projections: Update</i></a>. Washington, DC: Urban Institute/Robert Wood Johnson Foundation.</p>
+                        <p>Linda Blumberg, Genevieve Kenney, Matthew Buettgens, John Holahan, Nathaniel Anderson, Hannah Recht, Stephen Zuckerman. 2014. <a href="http://www.urban.org/research/publication/measuring-marketplace-enrollment-relative-enrollment-projections"><i>Measuring Marketplace Enrollment Relative to Enrollment Projections</i></a>. Washington, DC: Urban Institute/Robert Wood Johnson Foundation.</p>
+                        <p>Matthew Buettgens, Genevieve Kenney, Hannah Recht, Victoria Lynch. 2013. <a href="http://www.urban.org/research/publication/eligibility-assistance-and-projected-changes-coverage-under-aca-variation-across-states-0"><i>Eligibility for Assistance and Projected Changes in Coverage under the ACA: Variation Across States</i></a>. Washington, DC: Urban Institute/Robert Wood Johnson Foundation.</p>
+                    </div>
 
-        <hr>
+                    <hr>
+                    <!--Resume-->
+                    <div class="row" id="resume">
+                        <h2>Resume</h2>
 
-        <div class="row" id="resume">
-            <div class="col-lg-12">
-                <h2>Resume</h2>
-                
-                <h4>Education</h4>
-                <p class="name"><b>University of Rochester</b>, Rochester, NY</p>
-                <p class="res">May 2013
-                    <br>Bachelor of Arts in Mathematics and Statistics, Minor in Epidemiology
-                </p>
-                <ul>
-                    <li>Certificate in Actuarial Studies</li>
-                    <li>National Merit Scholar</li>
-                </ul>
+                        <h4>Education</h4>
+                        <p class="name"><b>University of Rochester</b>, Rochester, NY</p>
+                        <p class="res">May 2013
+                            <br>Bachelor of Arts in Mathematics and Statistics, Minor in Epidemiology
+                        </p>
+                        <ul>
+                            <li>Certificate in Actuarial Studies</li>
+                            <li>National Merit Scholar</li>
+                        </ul>
 
-                <h4>Experience</h4>
-                <p class="name"><b>Urban Institute</b>, Washington, DC</p>
-                <p class="res">June 2013 - Present
-                    <br>Research Assistant, Health Policy Center</p>
+                        <h4>Experience</h4>
+                        <p class="name"><b>Urban Institute</b>, Washington, DC</p>
+                        <p class="res">June 2013 - Present
+                            <br>Research Assistant</p>
 
-                <p class="name"><b>University of Rochester Medical Center</b>, Rochester, NY</p>
-                <p class="res">July 2012 - May 2013
-                    <br>Data Analyst, Stroke Treatment Alliance of Rochester</p>
+                        <p class="name"><b>University of Rochester Medical Center</b>, Rochester, NY</p>
+                        <p class="res">July 2012 - May 2013
+                            <br>Data Analyst, Stroke Treatment Alliance of Rochester</p>
 
-                <p class="name"><b>National Cancer Institute</b>, Bethesda, MD</p>
-                <p class="res">Summer 2011
-                    <br>Bioinformatics Intern</p>
+                        <p class="name"><b>National Cancer Institute</b>, Bethesda, MD</p>
+                        <p class="res">Summer 2011
+                            <br>Bioinformatics Intern</p>
 
-                <p class="name"><b>University of Rochester Music Department</b>, Rochester, NY</p>
-                <p class="res">December 2010 - April 2013
-                    <br>Symphony Orchestra Librarian</p>
+                        <p class="name"><b>University of Rochester Music Department</b>, Rochester, NY</p>
+                        <p class="res">December 2010 - April 2013
+                            <br>Symphony Orchestra Librarian</p>
 
-            </div>
-        </div>
+                    </div>
 
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row" id="contact">
-                <div class="col-lg-12">
-                    <a class="social" href="https://twitter.com/hannah_recht"><i class="fa fa-twitter fa-2x"></i></a>
-                    <a class="social" href="https://github.com/hrecht"><i class="fa fa-github fa-2x"></i></a>
-                    <a class="social" href="https://www.linkedin.com/in/hannahrecht"><i class="fa fa-linkedin fa-2x"></i></a>
-                    <p>Copyright &copy; Hannah Recht, 2015</p>
                 </div>
             </div>
-            <!-- /.row -->
-        </footer>
-
+        <!--/div-->
     </div>
     <!-- /.container -->
 
