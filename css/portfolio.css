@@ -11,6 +11,7 @@ body {
     color: #333;
     font-size: 14px;
     margin-bottom: 3em;
+    padding-top: 70px;
 }
 
 h1,
@@ -115,14 +116,15 @@ a:hover {
         border: none;
     }
     .navbar {
-        position: fixed;
-        top: 30%;
+        position: relative;
         width: auto;
         z-index: 2;
     }
     .sidebar-nav .navbar .navbar-collapse {
+        top: 30%;
         padding: 0;
         max-height: none;
+        position: fixed;
     }
     .sidebar-nav .navbar ul {
         float: none;
