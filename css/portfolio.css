@@ -35,8 +35,13 @@ h3.project {
     font-size: 20px;
 }
 
-.img-responsive {
+.img-holder {
     margin-bottom: 25px;
+    background: #6e5e90;
+}
+
+.img-responsive:hover {
+    opacity: 0.9;
 }
 
 p.name {
