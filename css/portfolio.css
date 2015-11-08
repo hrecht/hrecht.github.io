@@ -66,8 +66,13 @@ a.social {
     display: inline !important;
 }
 
-a:hover {
+a:hover, a.projtitle:hover {
     color: #6e5e90;
+    text-decoration: none;
+}
+
+a.projtitle {
+    color: inherit;
     text-decoration: none;
 }
 
