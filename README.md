@@ -1,3 +1,3 @@
 # Portfolio
 
-My portfolio and publications list - http://hrecht.github.io/.
+My portfolio and publications list. Theme built using Bootstrap.
