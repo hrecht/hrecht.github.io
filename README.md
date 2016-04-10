@@ -1,3 +1,3 @@
 # Portfolio
 
-My portfolio and publications list. Theme built using Bootstrap.
+My portfolio and publications list.
