@@ -4,8 +4,6 @@ body {
     font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
     color: #333;
     font-size: 14px;
-    margin-bottom: 3em;
-    padding-top: 70px;
 }
 
 h1,
@@ -29,16 +27,18 @@ p {
     text-align: left;
 }
 
-h1 {
+.name {
+    font-weight: 300;
+    font-size: 38px;
     margin-bottom: 8px;
-    font-size: 40px;
 }
 
 .statement {
+    /*color: #914ca8;*/
     margin-top: 4px;
-    margin-bottom: 8px;
+    margin-bottom: 2em;
     font-weight: 300;
-    font-size:26px;
+    font-size: 18px;
     font-style: italic;
 }
 
@@ -90,77 +90,92 @@ a.social {
     display: inline !important;
 }
 
-.navbar-default .navbar-nav > li > a {
+.sidehr {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.sidebarlinks {
+    color: #333;
+    padding-left: 0px;
+}
+
+.sidebarlinks > li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    float: none;
+    display: block;
+}
+
+li a {
+    padding: 0px;
+}
+
+.sidebarlinks > li > a {
     color: #333;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.sidebarlinks > li > a:hover {
     color: #6e5e90;
 }
 
-.sidebar-nav {
-    float: none;
+.navbar-brand {
+    color: #ffffff !important;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 @media (max-width: 767px) {
-    .col-sm-2 {
-        padding-right: 0px;
-        padding-left: 0px;
-        width: 100%;
+    #sidebar {
+        display: none;
     }
-    .col-sm-7 {
-        margin-left: 15px;
-        margin-right: 15px;
+    .navbar {
+        height: 56px;
+    }
+    .maincontent {
+        padding-top: 66px;
+        margin-bottom: 1em;
     }
     .navbar-toggle {
         margin-right: 30px;
     }
-    .navbar-default {
+    .navbar-default, .navbar-collapse {
         background-color: #000;
         color: #fff;
     }
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #fff;
     }
-    .navbar-default .navbar-nav > li > a {
+    .nav > li {
+        margin-bottom: 4px;
+    }
+    .nav > li > a {
         color: #fff;
+        padding: 0px;
+    }
+    h1 {
+        font-size: 1.3em;
+        margin-bottom: 4px;
+        margin-top: 2px;
+    }
+    .statement {
+        font-size: 0.9em;
+        margin-bottom: 4px;
     }
 }
 
 @media (min-width: 768px) {
-    body {
-        padding-top: 50px;
-        margin-bottom: 70px;
+    .maincontent {
+        padding-top: 60px;
+        margin-bottom: 3em;
     }
-    .navbar,
-    .navbar-default {
-        background-color: inherit;
-        border: none;
-    }
-    .navbar {
-        position: relative;
-        width: auto;
-        z-index: 2;
-    }
-    .sidebar-nav .navbar .navbar-collapse {
-        top: 30%;
-        padding: 0;
-        max-height: none;
+    #sidebar {
         position: fixed;
+        margin-left: 40px;
+        width: 180px;
+        top: 20%;
     }
-    .sidebar-nav .navbar ul {
-        float: none;
-    }
-    .sidebar-nav .navbar ul:not {
-        display: block;
-    }
-    .sidebar-nav .navbar li {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        float: none;
-        display: block;
-    }
-    .sidebar-nav .navbar li a {
-        padding: 0px;
+    #header {
+        display: none;
     }
 }
