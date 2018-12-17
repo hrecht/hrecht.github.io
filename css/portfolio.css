@@ -12,8 +12,15 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 25px;
+    margin: 0 0 20px;
     font-weight: 700;
+}
+
+h2.section {
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 h4 {
@@ -106,6 +113,23 @@ a.social {
     text-decoration: none;
     padding-right: 8px !important;
     display: inline !important;
+}
+
+.research-project > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.research-project {
+    margin-bottom: 1em;
+}
+
+.research-title {
+    font-size: 16px;
+}
+
+.research-authors {
+    font-weight: 300;
 }
 
 @media (max-width: 600px) {
