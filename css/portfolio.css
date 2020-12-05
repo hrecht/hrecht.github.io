@@ -71,6 +71,9 @@ h2.section-title {
 	font-size: 28px;
 	float: left;
 	text-transform: uppercase;
+	display: block;
+	width: 100%;
+	margin-bottom: 6px;
 }
 
 /* links */
@@ -86,9 +89,8 @@ a:not(.social):hover,
 }
 
 .social-links {
-	float: right;
-	padding-left: 12px;
-	line-height: 1.42857;
+	display: block;
+	width: 100%;
 }
 
 a.social {
