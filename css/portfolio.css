@@ -46,6 +46,11 @@ p {
 	font-size: 12px;
 }
 
+.callout {
+	border: 0.5px solid #0d565c;
+	padding: 30px 60px;
+}
+
 #about {
 	margin-bottom: 40px;
 }
@@ -76,7 +81,7 @@ a {
 	text-decoration: none;
 }
 
-a:not(.social):hover,
+a:hover,
 .project-link:hover {
 	color: #000000;
 	border-bottom: 1px solid #000000;
@@ -99,12 +104,8 @@ a:not(.social):hover,
 a.social {
 	color: #000000;
 	text-decoration: none;
-	padding-right: 8px !important;
 	display: inline !important;
-}
-
-a.social:hover {
-	color: #0d565c;
+	line-height: 2;
 }
 
 .icon-label {
@@ -113,9 +114,14 @@ a.social:hover {
 	display: inline-block;
 }
 
+.contacts {
+	margin-top: 20px;
+}
+
 .contact-container {
 	display: inline-block;
 	margin-right: 16px;
+	vertical-align: top;
 }
 
 /* layout */
