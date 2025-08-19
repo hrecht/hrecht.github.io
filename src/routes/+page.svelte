@@ -7,7 +7,7 @@
 <div class="container">
 	<header>
 		<h1 class="name">Hannah Recht</h1>
-		<h2 class="name-title">Data journalist</h2>
+		<h2 class="name-title">Data journalist</h2> 
 
 		<div class="contacts">
 			{#each sections.socials as d}
