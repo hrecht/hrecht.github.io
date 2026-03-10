@@ -30,9 +30,7 @@
 		</section>
 
 		<TextSection id="software" data={sections.software} title="Software" />
-
 		<Projects id="projects" title="Projects" />
-
 		<TextSection id="talks" data={sections.talks} title="Selected Talks and Teaching" />
 
 	</main>
