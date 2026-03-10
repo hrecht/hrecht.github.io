@@ -34,5 +34,6 @@
 		<Projects id="projects" title="Projects" />
 
 		<TextSection id="talks" data={sections.talks} title="Selected Talks and Teaching" />
+
 	</main>
 </div>
