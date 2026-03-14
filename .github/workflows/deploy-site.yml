@@ -7,6 +7,7 @@ on:
       - 'src/**'
       - 'static/**'
   workflow_call:
+  workflow_dispatch:
 
 jobs:
   build_site:
